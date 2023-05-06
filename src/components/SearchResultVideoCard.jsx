@@ -33,7 +33,7 @@ const SearchResultVideoCard = ({ video }) => {
               </div>
             </div>
             <div className="flex flex-col">
-              <span className="text-sm font-bold mt-2 text-white/[0.7] flex items-center">
+              <span className="text-sm font-semibold mt-2 text-white/[0.7] flex items-center">
                 {video?.author?.title}
                 {video?.author?.badges[0]?.type === "VERIFIED_CHANNEL" && (
                   <BsFillCheckCircleFill className="text-white/[0.5] text-[12px] lg:text-[10px] xl:text-[12px] ml-1" />

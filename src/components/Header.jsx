@@ -95,7 +95,7 @@ const Header = () => {
         <div className="flex h-8 w-8 overflow-hidden rounded-full md:ml-4">
           <img
             src="https://res.cloudinary.com/dmlts9lbk/image/upload/v1683317964/peeps-avatar-alpha_m6vbpa.png"
-            alt="ProfilePicture"
+            alt="Profile"
           />
         </div>
       </div>
